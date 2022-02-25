@@ -3,7 +3,7 @@
 
 # Target device
 # One of: bob, coachz, krane, kevin, minnie, speedy, lazor, 8101b
-if [ "$RELEASE" = "" ]; then
+if [ "$RELEASE" = "krane" ]; then
 	TARGET=krane
 else
 	TARGET=$RELEASE
